@@ -7,7 +7,7 @@ public class CounterApp extends JFrame {
         setBounds(350, 150, 700, 500);
         setTitle("Просто счетчик");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        Font font = new Font("Comic", Font.BOLD, 45);
+        Font font = new Font("Comic", Font.BOLD, 50);
         JLabel counterValueView = new JLabel();
         counterValueView.setFont(font);
         counterValueView.setHorizontalAlignment(SwingConstants.CENTER);
